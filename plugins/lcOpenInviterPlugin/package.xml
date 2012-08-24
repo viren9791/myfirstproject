@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.7.2" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>lcOpenInviterPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>A contact grabber plugin.</summary>
+ <description>A open inviter plugin that allow users to grab their contacts form different email providers (like hotmail, yahoo,gmail)
+    and send them invitation email to their website.</description>
+ <lead>
+  <name>Elie Andraos</name>
+  <user>elie.andraos</user>
+  <email>elie.andraos@letscod.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-04-03</date>
+ <time>15:49:09</time>
+ <version>
+  <release>0.1.1</release>
+  <api>0.1.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>(report at: elie.andraos@letscod.com for feedbacks and bugs)</notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="e08009932aa1bb75f11c9e654c637054" name="config/routing.yml" role="data"/>
+   <file md5sum="ef08f4e0d7b18a2ecc278a41c8b0b0a3" name="lib/form/GetContactsForm.class.php" role="data"/>
+   <file md5sum="8f2425f85f3837c421f3129985b674e9" name="lib/form/ShowContactsForm.class.php" role="data"/>
+   <file md5sum="b420d152fe157e1c5c6287b515b4cb63" name="lib/helper/openInviterHelper.php" role="data"/>
+   <file md5sum="e4ae4343f64112d4906f21b33104cfbf" name="lib/openInviter/plugins/default.php" role="data"/>
+   <file md5sum="e4ae4343f64112d4906f21b33104cfbf" name="lib/openInviter/plugins/index.php" role="data"/>
+   <file md5sum="0b3b954e8b9be9587b37a5f59ec793c9" name="lib/openInviter/plugins/gmail.php" role="data"/>
+   <file md5sum="631b7be36119fa1f9f77bb8067202b9b" name="lib/openInviter/plugins/hotmail.php" role="data"/>
+   <file md5sum="e9fcbad72175d5f8a15c422980b792d8" name="lib/openInviter/plugins/yahoo.php" role="data"/>
+   <file md5sum="eeae918f1eb5c2afff542d55037d260b" name="lib/openInviter/letscodopeninviter.class.php" role="data"/>
+   <file md5sum="b0186fea8eba2de9900125a6036e1672" name="lib/openInviter/letscodpostinstall.class.php" role="data"/>
+   <file md5sum="5d81553273522b820c0d3ec56030547a" name="lib/openInviter/openinviter_base.php" role="data"/>
+   <file md5sum="da6c4fdf20b89d7d3b88e6ef0cd33243" name="lib/openInviter/openinviter.php" role="data"/>
+   <file md5sum="0cad14f053d43d468de143d1d482ec16" name="lib/openInviter/config.php" role="data"/>
+   <file md5sum="4e723ff15990d62a77ac6515bef5625c" name="lib/task/letscodInstallopeninviterTask.class.php" role="data"/>
+   <file md5sum="0902e2e207bf0d445383fa6b420d90ab" name="modules/openInviter/actions/actions.class.php" role="data"/>
+   <file md5sum="deb280cee22efa77a4a506e0ae2e9932" name="modules/openInviter/templates/indexSuccess.php" role="data"/>
+   <file md5sum="caff4a395ef4dfe8dbae3f8da36eaf99" name="modules/openInviter/templates/inviteSuccess.php" role="data"/>
+   <file md5sum="85d6a6601f4f2c56f06c2de4e94737cd" name="modules/openInviter/templates/sentSuccess.php" role="data"/>
+   <file md5sum="503774ea4d6f831b5ff86dad794fe805" name="web/css/openinviter.css" role="data"/>
+   <file md5sum="fb0afff20fb3bc1d7816f8615c665391" name="web/js/jquery-1.2.6.js" role="data"/>
+   <file md5sum="e66ed039f357111ef4998cfdd12d530a" name="web/js/openinviter.js" role="data"/>
+   <file md5sum="a8148d434a8c0c8fea900a62fe613dae" name="README" role="data"/>
+   <file md5sum="27b22edd371d871e725b8e320d4e05f4" name="LICENSE" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2009-04-03</date>
+   <notes>missing confing.php</notes>
+  </release>
+ </changelog>
+</package>

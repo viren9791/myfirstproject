@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.8.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfFCKEditorPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>A FCKEditor Plugin</summary>
+ <description>A new sfForm widget that handles FCKEditor</description>
+ <lead>
+  <name>Sidney Ferreira</name>
+  <user>SidGBF</user>
+  <email>sid.gbf@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-06-28</date>
+ <time>09:08:09</time>
+ <version>
+  <release>0.0.3</release>
+  <api>0.0.3</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="caef18ae0872d3626dfb7b6660c79ab6" name="lib/widget/sfWidgetFormFCKEditor.class.php" role="data"/>
+   <file md5sum="dece2ee1930d71f072f6fdb06a95d7f6" name="README" role="data"/>
+   <file md5sum="c0f4a3e06e185a60d96059c7da8ff6e0" name="LICENSE" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.3</release>
+    <api>0.0.3</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.symfony-project.org/license">MIT license</license>
+   <license>LGPL</license>
+   <date>2009-06-28</date>
+   <notes>
+- Thanks to nerVo!
+- Move widget class in widget directory to be more symfony compliant
+- Add PHPDoc tags
+- Extend sfWidgetFormFCKEditor from sfWidgetForm instead of
+sfWidgetFormTextarea, to remove rows/cols attributes dependencies
+- Remove configure() method as it's no longer needed
+- Remove hard setting of sf_rich_text_fck_js_dir at the beginning of the
+render() method
+- Remove sfRichTextEditorFCK class checks, as the class is part of the
+symfony core
+- Correct attributes parameters of editor initializing
+	- Changed plugin's license
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.0.2</release>
+    <api>0.0.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.fckeditor.net/license">LGPL/GPL/MPL</license>
+   <license>LGPL</license>
+   <date>2009-03-31</date>
+   <notes>
+* First post. I'll detail it ASAP.
+   </notes>
+  </release>
+ </changelog>
+</package>

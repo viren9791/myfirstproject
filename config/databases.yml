@@ -1,0 +1,13 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=test_vrn'
+      username: test
+      password: test
+test:
+ doctrine:
+   class: sfDoctrineDatabase
+   param:
+     dsn: sqlite:%SF_DATA_DIR%/test_vrn.db
+     mode: '0644'	  

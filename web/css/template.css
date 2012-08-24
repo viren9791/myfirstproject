@@ -1,0 +1,438 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img, fieldset{
+    padding: 0px;
+    border: none;
+	margin: 0px;
+	line-height: 0px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+body{	
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: url(/images/bg.png);
+}
+
+.clear{
+	clear: both;	
+}
+
+#top_box_bg{
+	background: #000000 url(/images/menu_bg.jpg) no-repeat top center;
+}
+
+#top_box{
+	width: 1074px;
+	height: 87px;
+	margin: 0 auto;
+}
+
+.read_more{
+	margin-top: 20px;
+	background: url(/images/menu.png) no-repeat top left;
+	width: 131px;
+	height: 37px;
+	display: block;
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	line-height: 37px;
+	text-align: center;
+	float: right;
+}
+
+.read_more:hover{
+	background: url(/images/menu_hover.png) no-repeat top left;
+	color: #ffffff;
+}
+
+h2{
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #006382;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.read2{
+	text-align: right;
+	padding-top: 5px;
+}
+
+.read2 a{
+	color: #01698c;	
+	font: 12px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/*logo*/
+
+#logo{
+	width: 250px;
+	height: 90px;
+	padding: 20px 0 0 15px;
+	float: left;
+}
+
+#logo h1 a{
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#logo a small{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/*
+	menu
+*/
+
+#menu{
+	width: 760px;
+	height: 37px;
+	float: left;
+	padding-top: 23px;
+}
+
+#menu a:hover{
+	background: url(/images/menu_hover.png) no-repeat top center;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#anchortag {
+	font: 24px  Arial, Helvetica, sans-serif;
+    color: #ffffff;
+	text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+	float: left;
+    width: 131px;
+    height: 37px;
+	line-height: 37px;
+	background: url(/images/menu.png) no-repeat top left;
+	margin-left: 19px;
+}
+
+#menu ul li a:hover,  #menu ul li .active{
+	background: url(/images/menu_hover.png) no-repeat top center;
+}
+
+/*skay_box*/
+
+#sky_grad{
+	background: url(/images/sky_grad.jpg) repeat-x top;
+	height: 351px;
+	margin-bottom: 10px;
+}
+
+#sky_bg{
+	background: url(/images/sky.jpg) no-repeat top center;
+	height: 351px;
+}
+
+#sky_box{
+	width: 1074px;
+	margin: 0 auto;
+}
+
+#phone{
+	background: url(/images/phone.jpg) no-repeat top left;
+	width: 222px;
+	height: 399px;
+	position: absolute;
+	margin-left: 100px;
+}
+
+#sky_text{
+	width: 624px;
+	float: right;
+	padding-right: 93px;
+}
+
+.title_sky_box{
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+.title_sky_box span{
+	font: 24px Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000000;
+	line-height: 30px;
+	padding-bottom: 23px;
+}
+
+
+/*content*/
+
+#content{
+	width: 1074px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+#content_pad{
+	padding: 40px 9px 20px 9px;
+}
+
+#content_box{
+
+}
+
+#column1, #column2, #column3{
+	width: 344px;
+	float: left;
+}
+
+#column2{
+	padding: 0px 12px;
+}
+
+#column1 p, #column2 p, #column3 p{
+	padding: 12px 18px 0px 18px;
+}
+
+#content_left h2, #content_right h2{
+	text-align: left;
+	line-height: 30px;
+}
+
+#content_left{
+	float: left;
+	width: 652px;
+	padding-top: 40px;
+}
+
+.news{
+	background: url(/images/border.gif) repeat-x bottom;
+	padding: 0px 10px 0px 10px;
+}
+
+.news_last{
+	padding: 0px 10px 30px 10px;
+}
+
+.news_left{
+	float: left;
+	width: 50%;	
+}
+
+.news_right{
+	float: right;
+	width: 50%;	
+}
+
+#content_right{
+	float: right;
+	width: 377px;
+	padding-top: 40px;
+	padding-right: 10px;
+}
+
+#content_right h2{
+	text-align: center;
+}
+
+.border{
+	background: url(/images/bor_bot.gif) repeat-x bottom;
+	height: 15px;
+	margin-bottom: 15px;
+}
+
+.ls1{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.ls1 li{
+    background: url(/images/ls1.gif) no-repeat 0px 6px;
+    padding-left: 25px;
+	padding-right: 30px;
+}
+
+.ls1 li a{
+	font: 14px Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+
+
+/*footer*/
+
+#footer_bg{
+	background: #000000;
+	padding-top: 24px;
+	margin-top: 10px;
+}
+
+.column_box{
+	width: 982px;
+	margin: 0 auto;
+}
+
+.column_box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: normal;
+	padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.col1, .col2, .col3{
+    width: 310px;
+    float: left;
+}
+
+.col2 p{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	line-height: 20px;
+}
+
+.img_bor{
+	border: 3px solid #ffffff;
+	display: block;
+	margin-bottom: 18px;
+}
+
+.col1, .col2{
+    padding-right: 23px;
+}
+
+.ul_bot{
+	padding-left: 22px; 
+	list-style: none;
+}
+
+.ul_bot li{
+    background: url(/images/ls1.png) no-repeat 0px 7px;
+    padding-left: 12px;
+	margin-bottom: 4px;
+}
+
+.ul_bot a{
+	font: 12px Arial, Helvetica, sans-serif;
+    color: #00c0ff;
+    font-weight: bold;
+}
+
+#log{
+
+}
+
+#log fieldset {
+    border: none;
+}
+
+#log label {
+    font: 12px Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	line-height: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align:left;
+    padding-left: 10px;
+}
+
+#log input {
+    margin-bottom: 5px;
+}
+
+#login-submit{
+    width: 117px;
+    height: 27px;
+    background: url(/images/send.png) no-repeat top left;
+    border: none;
+    float:right;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+#text1, #text2 {
+    width: 280px;
+    height: 27px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 12px;
+    border: none;
+    background: url(/images/input_bg.png) no-repeat top left;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+#text_mess {
+    width: 284px;
+    height: 115px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: url(/images/text_mess.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+    color: #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.con_white_hr{
+    border-bottom: 1px solid #ffffff;
+    height: 1px;
+    clear: both;
+    padding-top: 25px;
+}
+
+
+
+
+#footer{
+    clear: both;
+    width: 979px;
+    margin: 0 auto;
+    background: url(/images/menu_bg.gif) no-repeat right top;
+    height: 60px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer_left{
+	padding-top: 15px;
+}
+
+#footer p, #footer a{
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 10px;
+}
+

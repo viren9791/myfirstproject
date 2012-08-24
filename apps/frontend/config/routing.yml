@@ -1,0 +1,32 @@
+# default rules
+homepage:
+  url:   /
+  param: { module: login, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+
+home:
+  url:   home.html
+  param: { module: login, action: home }
+addtoCart:
+  url:   dummyCart.html
+  param: { module: dummyCart, action: addToCart }  
+openInviterHome:
+  url: /open-inviter
+  param: { module: openinviter, action: index}
+  requirements:
+    sf_culture: (?:fr|en)
+
+openInviter:
+  url: /open-inviter/:action
+  param: { module: openinviter, action: :action}
+  requirements:
+    sf_culture: (?:fr|en) 
+registration:
+  url:   sign_up.html
+  param: { module: login, action: registration }		

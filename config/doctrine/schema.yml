@@ -1,0 +1,318 @@
+Content:
+  actAs:
+    Timestampable:
+    I18n:
+       fields: [content_title,image]
+  connection: doctrine
+  tableName: content
+  columns:
+    id_content:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    content_type:
+      type: string(20)
+    content_title:
+      type: string(20)  
+    image:
+      type: string(255)    
+    enable:
+      type: enum(3)
+      values:
+        - yes
+        - no
+      default: yes
+      notnull: false
+Language:
+  actAs:
+     Timestampable: ~
+  connection: doctrine
+  tableName: language
+  columns:
+    enabled:
+      type: enum(3)
+      values:
+        - yes
+        - no
+      default: yes
+    language_name:
+      type: string(30)
+    culture:
+      type: string(10)
+      notnull: true
+    def:
+      type: enum(3)
+      fixed: false
+      values:
+        - yes
+        - no
+      default: no
+Admin:
+  connection: doctrine
+  tableName: admin
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    username:
+      type: string(255)
+      notnull: true
+      autoincrement: false
+    password:
+      type: string(255)
+      notnull: true
+      autoincrement: false
+Attribute:
+  connection: doctrine
+  tableName: attribute
+  columns:
+    attribute_id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(50)
+      notnull: true
+      autoincrement: false
+AttributeValues:
+  connection: doctrine
+  tableName: attribute_values
+  columns:
+    id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    attribute_id:
+      type: integer(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    value:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Attribute:
+      local: attribute_id
+      foreign: attribute_id
+      type: many
+
+Category:
+  connection: doctrine
+  tableName: category
+  columns:
+    category_id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(50)
+      notnull: true
+      autoincrement: false
+    parent_id:
+      type: integer(8)
+Product:
+  connection: doctrine
+  tableName: product
+  columns:
+    product_id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(50)
+      notnull: true
+      autoincrement: false
+    price:
+      type: integer(8)
+    description:
+      type: text
+      notnull: true
+    image:
+      type: string(50)
+      notnull: true
+ProductDetails:
+  actAs:
+    Timestampable:
+  connection: doctrine
+  tableName: product_details
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    product_id:
+      type: integer(8)
+    category_id:
+      type: integer(8)
+  relations:
+    Category:
+      local: category_id
+      foreign: category_id
+      type: one
+      cascade: [delete]
+    Product:
+      local: product_id
+      foreign: product_id
+      type: one
+      cascade: [delete]	  
+ProductAttribute:
+  actAs:
+    Timestampable:
+  connection: doctrine
+  tableName: product_attributes
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    product_id:
+      type: integer(8)
+    attribute_id:
+      type: integer(8)
+    attribute_value_id:
+      type: integer(8)  
+    price:
+      type: integer(8)	
+    image:
+      type: varchar(255)	  
+  relations:
+    Attribute:
+      local: attribute_id
+      foreign: attribute_id
+      type: one
+      cascade: [delete]
+    AttributeValues:
+      local: attribute_value_id
+      foreign: id
+      type: one
+      cascade: [delete]  
+    Product:
+      local: product_id
+      foreign: product_id
+      type: one
+      cascade: [delete]	  
+Test:
+  connection: doctrine
+  tableName: test
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    chk_1:
+      type: enum(3)
+      values:
+        - yes
+        - no
+      primary: false
+      notnull: true
+      autoincrement: false
+    chk_2:
+      type: integer(4)
+      notnull: true
+User:
+  actAs:
+    Timestampable:
+  connection: doctrine
+  tableName: user
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    username:
+      type: string(255)
+      notnull: true
+      autoincrement: false
+    password:
+      type: string(255)
+      notnull: true
+      autoincrement: false
+    image:
+      type: string(255)
+    email:
+      type: string(255)
+      autoincrement: false
+    contact_no:
+      type: string(13)
+      autoincrement: false
+    tw_oauth_token:
+      type: string(50)
+      notnull: true
+    tw_oauth_token_secrete:
+      type: string(255)
+      notnull: true
+      autoincrement: false
+    fb_uid:
+      type: string(50)
+    fb_access_token:
+      type: string(255)
+    salt:
+      type: string(255)
+DummyCart:
+  actAs:
+    Timestampable:
+  connection: doctrine
+  tableName: dummy_cart
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    product_id:
+      type: integer(8)
+    user_id:
+      type: integer(8)
+    quantity:
+      type: integer(8)  
+    price:
+      type: integer(8)	
+  relations:
+    Product:
+      local: product_id
+      foreign: product_id
+      type: one
+      cascade: [delete]	  	  
+    User:
+      local: user_id
+      foreign: id
+      type: one
+      cascade: [delete]	 
+client:
+  connection: doctrine
+  tableName: client
+  actAs: 
+    Timestampable:
+  columns:
+    username:
+      type: string(20)
+    password:
+      type: string(20)
+clientDetail:
+  connection: doctrine
+  tableName: client_detail
+  columns:
+    id_client:
+      type: integer(8)
+    name:
+      type: varchar(255)
+    email:
+      type: varchar(255)
+    address:
+      type: varchar(255)
+  relations:
+    client:
+      local: id_client
+      foreign: id
+      type: one
+      cascade: [delete]
+      cascade: [update]	  

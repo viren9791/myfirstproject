@@ -1,0 +1,15 @@
+.p_heading 
+{
+   font-size:24px;
+   color:#1E7DAC;
+   display:inline;
+   max-width:500px;
+}
+.content
+{
+   font-size:16px;
+   max-width:850px;
+   font-family:Georgia, "Times New Roman", Times, serif;
+   margin-top:10px;
+}
+.fix{float:right;margin-top:10px;}

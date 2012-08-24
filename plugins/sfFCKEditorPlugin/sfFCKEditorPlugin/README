@@ -1,0 +1,32 @@
+Special thanks to nerVo that helped to exist a 3rd version of the plugin.
+
+How to install:
+
+`  symfony plugin:install sfFCKEditorPlugin`
+
+How to use:
+
+`  $this->widgetSchema['my_editor'] = new sfWidgetFormFCKEditor();`
+
+Allow uploads:
+
+In 'js/fckeditor/editor/filemanager/connectors/php/config.php':
+
+`
+$Config['Enabled'] = true;
+
+$Config['UserFilesPath'] = '/uploads/assets/' ;
+
+$Config['UserFilesAbsolutePath'] = dirname(__FILE__) . '/../../../../../..' . $Config['UserFilesPath'];
+`
+
+FCKeditor Documentation
+
+`You can find the official documentation for FCKeditor online, at
+http://docs.fckeditor.net/.`
+
+**TODO**
+
+* Improve this documentation with tips and configurations like toolbars, translations and stuff.
+
+* Find more people wanting to help

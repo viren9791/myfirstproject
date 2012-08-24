@@ -1,0 +1,24 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  business_account:       viren._1343295918_biz@gmail.com
+  business_account_psw:   14144481414448
+  currancy_code:          USD
+  country_code:            1
+  fb_client_id:           158166530974662
+  fb_client_secret:       6fea68d4718dd66b2b94c94bd0e0a8bb
+  consumer_key: 	      3o6tFRN9hhSbu9mhPAGkew
+  consumer_secret:        WxAUPQB8DQI34OpNR5QpWlhxiynEjjPcsPyo7LHNc
+  access_token:           613414238-SQFM0QDbBAjfC0QvcaudpjAAZafm5UHCyrCvqXCB
+  access_token_secrete:   gmtXFLFG25pyUdeto1N0l77sbxZ2gNNKfmuLM0WWJk
+  oauthcallback:          153.symfonyprojects.vrn/login/twitterAuth/
+  admin_email:            vir.dave9791@gmail.com
+  lcOpenInviterPlugin:
+                wish-list:
+                  providers: ["hotmail","gmail"]
+                message:
+                  subject: "is inviting you to join letscod developers"
+                  body: "Check our recruitment page"
+                  footer: "LetsCod"

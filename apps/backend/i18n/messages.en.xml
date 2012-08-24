@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+<file orginal="global" source-language="en_US" datatype="plaintext">
+<body>
+   <trans-unit id="1">
+     <source>lbl_category_heading</source>
+     <target>Category List</target>
+   </trans-unit>
+   <trans-unit id="2">
+     <source>lbl_category_id</source>
+     <target>Category Id</target>
+   </trans-unit>
+   <trans-unit id="3">
+     <source>lbl_category_name</source>
+     <target>Category</target>
+   </trans-unit>
+   <trans-unit id="4">
+     <source>lbl_parent_category</source>
+     <target>Parent Category</target>
+   </trans-unit>
+    <trans-unit id="5">
+     <source>lbl_edit</source>
+     <target>Edit</target>
+   </trans-unit>
+   <trans-unit id="6">
+     <source>lbl_delete</source>
+     <target>Delete</target>
+   </trans-unit>
+   <trans-unit id="7">
+     <source>lbl_first</source>
+     <target>First</target>
+   </trans-unit>
+   <trans-unit id="8">
+     <source>lbl_last</source>
+     <target>Last</target>
+   </trans-unit>
+   <trans-unit id="9">
+     <source>lbl_next</source>
+     <target>Next</target>
+   </trans-unit>
+   <trans-unit id="10">
+     <source>lbl_previeous</source>
+     <target>Previous</target>
+   </trans-unit>
+   <trans-unit id="11">
+     <source>lbl_add_category</source>
+     <target>Add Catagory Detail</target>
+   </trans-unit>
+   <trans-unit id="12">
+     <source>lbl_edit_category</source>
+     <target>Edit Catagory Detail</target>
+   </trans-unit>
+   <trans-unit id="13">
+     <source>msg_no_record</source>
+     <target>No Record Found</target>
+   </trans-unit>
+    <trans-unit id="14">
+     <source>btn_update</source>
+     <target>Update</target>
+   </trans-unit>
+   <trans-unit id="15">
+     <source>btn_save</source>
+     <target>Save</target>
+   </trans-unit>
+   <trans-unit id="16">
+     <source>lnk_edit</source>
+     <target>Edit</target>
+   </trans-unit>
+   <trans-unit id="17">
+     <source>lnk_delete</source>
+     <target>Delete</target>
+   </trans-unit>
+   <trans-unit id="18">
+     <source>lnk_add</source>
+     <target>Add</target>
+   </trans-unit>
+   <trans-unit id="19">
+     <source>lbl_change_psw</source>
+     <target>Change Password</target>
+   </trans-unit>
+   <trans-unit id="20">
+     <source>btn_login</source>
+     <target>Login</target>
+   </trans-unit>
+   <trans-unit id="21">
+     <source>lbl_login_heading</source>
+     <target>Login Detail</target>
+   </trans-unit>
+   <trans-unit id="22">
+     <source>lbl_product_heading</source>
+     <target>Product List</target>
+   </trans-unit>
+   <trans-unit id="23">
+     <source>lbl_product_price</source>
+     <target>Price</target>
+   </trans-unit>
+   <trans-unit id="24">
+     <source>lbl_product_description</source>
+     <target>Description</target>
+   </trans-unit> 
+   <trans-unit id="25">
+     <source>lbl_product_image</source>
+     <target>Image</target>
+   </trans-unit>   
+   <trans-unit id="26">
+     <source>lbl_product_id</source>
+     <target>Product Id</target>
+   </trans-unit>  
+   <trans-unit id="27">
+     <source>lbl_edit_product</source>
+     <target>Edit Product Detail</target>
+   </trans-unit>  
+   <trans-unit id="28">
+     <source>lbl_add_product</source>
+     <target>Add Product Detail</target>
+   </trans-unit> 
+   <trans-unit id="29">
+     <source>msg_category_blank</source>
+     <target>Enter Category</target>
+   </trans-unit>
+   <trans-unit id="30">
+     <source>lbl_new_password</source>
+     <target>New Password</target>
+   </trans-unit>
+   <trans-unit id="31">
+     <source>lbl_old_password</source>
+     <target>Old Password</target>
+   </trans-unit>
+   <trans-unit id="32">
+     <source>lbl_confirm_password</source>
+     <target>Confirm Password</target>
+   </trans-unit>   
+   <trans-unit id="33">
+     <source>msg_new_password_blank</source>
+     <target>Enter New Password</target>
+   </trans-unit>
+   <trans-unit id="34">
+     <source>msg_old_password_blank</source>
+     <target>Enter Old Password</target>
+   </trans-unit>
+   <trans-unit id="35">
+     <source>msg_confirm_password_blank</source>
+     <target>Enter Confirm Password</target>
+   </trans-unit>   
+   <trans-unit id="36">
+     <source>msg_confirm_password_invalid</source>
+     <target>Password  does not match</target>
+   </trans-unit>  
+   <trans-unit id="37">
+     <source>msg_old_password_invalid</source>
+     <target>Enter correct password</target>
+   </trans-unit>   
+   <trans-unit id="38">
+     <source>lbl_username</source>
+     <target>Username</target>
+   </trans-unit>  
+   <trans-unit id="39">
+     <source>lbl_password</source>
+     <target>password</target>
+   </trans-unit>     
+   <trans-unit id="40">
+     <source>msg_password_blank</source>
+     <target>Enter password</target>
+   </trans-unit>  
+   <trans-unit id="41">
+     <source>msg_username_blank</source>
+     <target>Enter Username</target>
+   </trans-unit>  
+   <trans-unit id="42">
+     <source>lbl_product_name</source>
+     <target>Product name</target>
+   </trans-unit> 
+   <trans-unit id="43">
+     <source>msg_product_name_blank</source>
+     <target>Enter product name</target>
+   </trans-unit> 
+   <trans-unit id="44">
+     <source>lbl_price</source>
+     <target>Price</target>
+   </trans-unit> 
+   <trans-unit id="45">
+     <source>msg_price_blank</source>
+     <target>Enter product Price</target>
+   </trans-unit> 
+   <trans-unit id="46">
+     <source>lbl_description</source>
+     <target>Description</target>
+   </trans-unit> 
+   <trans-unit id="47">
+     <source>msg_description_blank</source>
+     <target>Enter  Description</target>
+   </trans-unit> 
+   <trans-unit id="48">
+     <source>lbl_image</source>
+     <target>Image</target>
+   </trans-unit> 
+   <trans-unit id="50">
+     <source>msg_success_changepassword</source>
+     <target>Change password success</target>
+   </trans-unit>
+   <trans-unit id="51">
+     <source>msg_fail_changepassword</source>
+     <target>Change password fail</target>
+   </trans-unit>   
+   <trans-unit id="52">
+     <source>msg_delete_success</source>
+     <target>One row deleted successfully</target>
+   </trans-unit>  
+   <trans-unit id="53">
+     <source>msg_edit_success</source>
+     <target>One row updateted successfully</target>
+   </trans-unit>  
+    <trans-unit id="54">
+     <source>msg_insert_success</source>
+     <target>One row inserted successfully</target>
+   </trans-unit>  
+   <trans-unit id="55">
+     <source>msg_image_blank</source>
+     <target>Select Image</target>
+   </trans-unit> 
+   <trans-unit id="56">
+     <source>lbl_attribute_heading_edit</source>
+     <target>Edit Attribute Detail</target>
+   </trans-unit> 
+   <trans-unit id="57">
+     <source>lbl_attribute_heading_add</source>
+     <target>Add Attribute Detail</target>
+   </trans-unit>  
+   <trans-unit id="58">
+     <source>lbl_attribute</source>
+     <target>Attribute</target>
+   </trans-unit> 
+   <trans-unit id="59">
+     <source>lbl_attribute_value</source>
+     <target>Value</target>
+   </trans-unit>  
+   <trans-unit id="60">
+     <source>lbl_attribute_heading</source>
+     <target>Attribute detail</target>
+   </trans-unit>  
+   <trans-unit id="61">
+     <source>lbl_attribute_id</source>
+     <target>Id</target>
+   </trans-unit>    
+   <trans-unit id="62">
+     <source>lnk_asc</source>
+     <target>Ascending</target>
+   </trans-unit> 
+   <trans-unit id="63">
+     <source>lnk_dsc</source>
+     <target>Descending</target>
+   </trans-unit>    
+   <trans-unit id="64">
+     <source>msg_fail_login</source>
+     <target>Invalid username and password</target>
+   </trans-unit>  
+   <trans-unit id="65">
+     <source>msg_success_login</source>
+     <target>Welcome admin you have successfully login</target>
+   </trans-unit>   
+   <trans-unit id="66">
+     <source>lbl_content_heading</source>
+     <target>Content management</target>
+   </trans-unit>  
+   <trans-unit id="67">
+     <source>lbl_content_type</source>
+     <target>Content Type</target>
+   </trans-unit>
+   <trans-unit id="68">
+     <source>lbl_content_title</source>
+     <target>Content Title</target>
+   </trans-unit> 
+   <trans-unit id="69">
+     <source>lbl_content_enabled</source>
+     <target>Enabled</target>
+   </trans-unit>
+   <trans-unit id="70">
+     <source>lbl_content_heading_add</source>
+     <target>Add Content</target>
+   </trans-unit>
+   <trans-unit id="71">
+     <source>lbl_content_heading_edit</source>
+     <target>Edit Content</target>
+   </trans-unit>
+   <trans-unit id="72">
+     <source>ttl_add_attribute</source>
+     <target>Add new attribute</target>
+   </trans-unit>
+   <trans-unit id="73">
+     <source>ttl_edit_attribute</source>
+     <target>Edit attribute</target>
+   </trans-unit>
+   <trans-unit id="74">
+     <source>msg_email_blank</source>
+     <target>Enter Email Address</target>
+   </trans-unit>
+   <trans-unit id="75">
+     <source>msg_contact_blank</source>
+     <target>Enter Contact No</target>
+   </trans-unit>
+   <trans-unit id="76">
+     <source>lbl_email</source>
+     <target>Email</target>
+   </trans-unit>
+   <trans-unit id="77">
+     <source>lbl_address</source>
+     <target>Address</target>
+   </trans-unit>
+   <trans-unit id="78">
+     <source>msg_address_blank</source>
+     <target>Enter Address</target>
+   </trans-unit>
+   <trans-unit id="79">
+     <source>msg_name_blank</source>
+     <target>Enter Name</target>
+   </trans-unit>
+   <trans-unit id="80">
+     <source>lbl_name</source>
+     <target>Name</target>
+   </trans-unit>
+</body>
+</file>
+</xliff>	
